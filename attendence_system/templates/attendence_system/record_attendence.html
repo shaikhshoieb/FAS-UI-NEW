@@ -1,0 +1,33 @@
+{% extends "attendence_system/home.html" %}
+{% block title %}Register Attendence{% endblock %}
+{% block content %}
+
+<div class="row">
+
+	<div class="col-md-12" style="margin-top: 20px;;">
+		  <h2>Register Attendence</h2>
+		  <p>Register Attendence Below</p>
+    </div>
+
+	<div class="col-md-3">
+		<div class="card card-body">
+			<a class="btn btn-warning" href="{% url 'dashboard' %}"> &#8592; Back to Home</a>
+			<hr>
+			<h3 style="text-align: center">Record Attendance</h3>
+			<hr>
+
+		</div>
+	</div>
+	<div class="col-md-9">
+		<div class="card card-body">
+			<h3 class="p-3 mb-2 ">
+			  Record Attendance for the Day !
+				<br>
+				<small class="text-muted">Look at the CAM</small>
+			</h3>
+		</div>
+	</div>
+</div>
+
+
+{% endblock %}
